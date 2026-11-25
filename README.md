@@ -195,46 +195,6 @@ PUSL3205-Practical-Portfolio/
     └── screenshots/
 ```
 
-## Reproducing the work
-
-### Labs 01, 03 and 04 — Google Colab
-
-Open the notebooks linked above in Google Colab and follow their cells in order. Lab 03 and Lab 04 are GPU-oriented experiments; results can differ between runs due to hardware, package versions and sampling. Lab 04 additionally requires downloading the pretrained model. Saved results in this repository describe the recorded runs, not guaranteed results from every future execution.
-
-### Lab 05 — Local document RAG
-
-On Windows, install Python 3.12 and [Ollama](https://ollama.com/). Download the local models:
-
-```powershell
-ollama pull llama3.2:3b
-ollama pull qwen3-embedding:0.6b
-```
-
-From the Lab 05 directory, create and activate an environment, install dependencies, rebuild the local vector index, and launch the Streamlit interface:
-
-```powershell
-py -3.12 -m venv rag_env
-.\rag_env\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-python -m src.ingest
-python -m streamlit run app.py
-```
-
-The local ChromaDB index is intentionally **not committed**; it is regenerated from the documents. The setup steps, source files and configuration example are in the [Lab 05 README](Lab-05-RAG-Architecture/README.md).
-
-### Lab 06 — Local tool-using agents
-
-Install Python 3.12 and make sure `llama3.2:3b` is available in Ollama. Create a local environment, install the dependencies needed by the relevant program, configure local environment values and any private Google OAuth credentials, and use these entry points from the Lab 06 directory:
-
-```powershell
-python .\part_a_calculator.py
-python .\part_a_multiple_tools.py
-python .\part_b_memory.py
-python .\part_c_rag.py
-python .\part_d_calendar.py
-```
-
-The repository currently does **not** contain a Lab 06 `requirements.txt`, so a reproducible pinned dependency install is not yet provided for this lab. Part C also depends on the locally regenerated Lab 05 ChromaDB index; Part D needs Google Calendar OAuth configuration. Refer to the [Lab 06 README](Lab-06-AI-Agents/README.md) for the implemented modules and evidence. n8n runs separately through Docker and is accessed at `http://localhost:5678` when configured.
 
 ## Results, evidence and limitations
 
