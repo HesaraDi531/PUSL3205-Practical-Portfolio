@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Can I visit the store on a Sunday?",
+    "reference": "ByteBridge Computers is closed on Sundays.",
+    "type": "Known policy"
+  },
+  {
+    "question": "At what value does shipping become free?",
+    "reference": "Delivery is free for orders worth LKR 25,000 or more.",
+    "type": "Known policy"
+  },
+  {
+    "question": "How soon can I pick up an order after it is confirmed?",
+    "reference": "Pickup orders are usually ready within 24 hours after confirmation.",
+    "type": "Known policy"
+  },
+  {
+    "question": "What if I change my mind after opening a purchase?",
+    "reference": "Opened items cannot be returned unless a fault is confirmed.",
+    "type": "Known policy"
+  },
+  {
+    "question": "Do you charge students less for a laptop?",
+    "reference": "No. The 5% student discount applies to eligible accessories, not laptops.",
+    "type": "Known policy"
+  },
+  {
+    "question": "Could I pay for a PC in monthly instalments?",
+    "reference": "No. ByteBridge Computers does not offer instalment payment plans.",
+    "type": "Known policy"
+  },
+  {
+    "question": "How much will a diagnostic check cost?",
+    "reference": "A laptop diagnostic check costs LKR 1,500.",
+    "type": "Known policy"
+  },
+  {
+    "question": "Do you buy my old laptop when I upgrade?",
+    "reference": "No. The shop does not currently accept trade-ins.",
+    "type": "Known policy"
+  },
+  {
+    "question": "What is the store manager's personal phone number?",
+    "reference": "Not specified in the training dataset.",
+    "type": "Unknown fact"
+  },
+  {
+    "question": "What exact laptop models are in stock today?",
+    "reference": "Not specified in the training dataset.",
+    "type": "Unknown fact"
+  }
+]

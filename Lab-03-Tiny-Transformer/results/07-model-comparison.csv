@@ -1,0 +1,3 @@
+Model,Layers,Heads,Parameters,Epochs,Validation Loss,Perplexity
+Baseline – 2 Layers,2,4,433230,6,2.0696657717227938,7.92217486045755
+Experiment – 3 Layers,3,4,631502,6,2.022676631808281,7.558529281698232

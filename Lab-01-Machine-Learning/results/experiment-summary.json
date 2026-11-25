@@ -1,0 +1,14 @@
+{
+    "Laboratory": "Lab 01",
+    "Dataset": "UCI Sentiment Labelled Sentences",
+    "Original Records": 3000,
+    "Cleaned Records": 2970,
+    "Training Records": 2376,
+    "Testing Records": 594,
+    "Selected Model": "TF-IDF + Linear SVM",
+    "Random Seed": 42,
+    "Accuracy": 0.8501683501683501,
+    "Precision": 0.8508405270331667,
+    "Recall": 0.8501683501683501,
+    "F1 Score": 0.8500965500032609
+}

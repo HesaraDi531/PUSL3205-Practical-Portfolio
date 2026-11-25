@@ -1,0 +1,6 @@
+{
+    "model": "Baseline Transformer",
+    "training_loss": 2.0790023684501646,
+    "validation_loss": 2.0664263367652893,
+    "perplexity": 7.8965530128357235
+}

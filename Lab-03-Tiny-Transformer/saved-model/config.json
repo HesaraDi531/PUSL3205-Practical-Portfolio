@@ -1,0 +1,36 @@
+{
+    "dataset": "roneneldan/TinyStories",
+    "number_of_stories": 1500,
+    "training_stories": 1350,
+    "validation_stories": 150,
+    "tokenization": "character-level",
+    "vocabulary_size": 78,
+    "baseline_model": {
+        "vocab_size": 78,
+        "block_size": 128,
+        "d_model": 128,
+        "n_heads": 4,
+        "n_layers": 2,
+        "dropout": 0.1
+    },
+    "experimental_model": {
+        "vocab_size": 78,
+        "block_size": 128,
+        "d_model": 128,
+        "n_heads": 4,
+        "n_layers": 3,
+        "dropout": 0.1
+    },
+    "random_seed": 42,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "epochs": 6,
+    "steps_per_epoch": 60,
+    "batch_size": 32,
+    "block_size": 128,
+    "baseline_validation_loss": 2.0696657717227938,
+    "baseline_perplexity": 7.92217486045755,
+    "experiment_validation_loss": 2.022676631808281,
+    "experiment_perplexity": 7.558529281698232,
+    "device": "cuda"
+}

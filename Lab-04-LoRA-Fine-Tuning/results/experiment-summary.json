@@ -1,0 +1,17 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "method": "QLoRA 4-bit",
+  "gpu_name": "Tesla T4",
+  "gpu_memory_gib": 14.56,
+  "train_pairs": 40,
+  "validation_pairs": 4,
+  "unseen_test_questions": 10,
+  "learning_rate": 0.0002,
+  "epochs": 10,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "seed": 42,
+  "training_loss": 0.7887049389630556,
+  "training_runtime_seconds": 122.2986,
+  "note": "Fictional shop. Response correctness requires manual evaluation."
+}

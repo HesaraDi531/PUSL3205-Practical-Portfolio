@@ -1,0 +1,9 @@
+Original Sentence,Cleaned Sentence,Predicted Sentiment
+This product is absolutely amazing!,this product is absolutely amazing,Positive
+The movie was terrible and boring.,the movie was terrible and boring,Negative
+I really enjoyed the experience.,i really enjoyed the experience,Positive
+The food was not good at all.,the food was not good at all,Negative
+The service was excellent.,the service was excellent,Positive
+I would never recommend this product.,i would never recommend this product,Positive
+The quality is acceptable but not impressive.,the quality is acceptable but not impressive,Negative
+I love this place!,i love this place,Positive

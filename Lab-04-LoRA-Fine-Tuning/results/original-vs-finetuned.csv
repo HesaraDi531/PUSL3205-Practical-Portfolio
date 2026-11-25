@@ -1,0 +1,21 @@
+Question,Question type,Reference answer,Original model,Fine-tuned model,Original accuracy (manual),Fine-tuned accuracy (manual),Notes
+Can I visit the store on a Sunday?,Known policy,ByteBridge Computers is closed on Sundays.,"Yes, you can visit the store on a Sunday as long as there are no other customers in the store at that time.",Yes. The shop is closed on Sundays.,,,
+At what value does shipping become free?,Known policy,"Delivery is free for orders worth LKR 25,000 or more.",Shipping becomes free when the goods reach your designated destination without any additional charges. This typically occurs at ports of entry or upon arrival in your country's customs territory.,"Shipping becomes free for orders worth LKR 25,000 or more.",,,
+How soon can I pick up an order after it is confirmed?,Known policy,Pickup orders are usually ready within 24 hours after confirmation.,"Orders are typically shipped within 1-2 business days from the date of confirmation. However, shipping times may vary based on your location and the specific order details.",Confirm a order no more than 48 hours ahead of the scheduled delivery date.,,,
+What if I change my mind after opening a purchase?,Known policy,Opened items cannot be returned unless a fault is confirmed.,"If you change your mind after purchasing from ByteBridge Computers, you can proceed with the transaction as usual until the item arrives or until you receive an apology from ByteBridge Computers.","If a customer changes their mind before submitting a purchase, they can do so within 24 hours at the shop without any penalty.",,,
+Do you charge students less for a laptop?,Known policy,"No. The 5% student discount applies to eligible accessories, not laptops.","No, we do not charge students less for laptops at ByteBridge Computers; they offer all new devices free of charge.",No. Laptops are not normally offered for sale with student discounts by the shop.,,,
+Could I pay for a PC in monthly instalments?,Known policy,No. ByteBridge Computers does not offer instalment payment plans.,"Yes, you could pay for a PC in monthly instalments.",Yes. The shop offers monthly payment plans with a 5% discount if paid within 30 days before the due date.,,,
+How much will a diagnostic check cost?,Known policy,"A laptop diagnostic check costs LKR 1,500.",A diagnostic check costs between $50 to $200 depending on the complexity of the issue.,"A diagnostic check costs LKR 1,500.",,,
+Do you buy my old laptop when I upgrade?,Known policy,No. The shop does not currently accept trade-ins.,"Yes, we do purchase your old laptop when upgrading to new hardware.",Yes. The shop accepts pre-owned accessories after a compatible upgrade has been approved.,,,
+What is the store manager's personal phone number?,Unknown fact,Not specified in the training dataset.,The store manager's personal phone number is not available as there is no public record of such details.,The fictional ByteBridge Computers shop has no known private phone numbers.,,,
+What exact laptop models are in stock today?,Unknown fact,Not specified in the training dataset.,"Laptops are currently in stock for the following models:  
+- 15-inch MacBook Pro  
+- 13-inch MacBook Air  
+- 14-inch MacBook Pro  
+- 12-inch MacBook Pro  
+- 16-inch MacBook Pro  
+- 17-inch MacBook Pro  
+- 10-inch MacBook Pro  
+- 18-inch MacBook Pro  
+- 19-inch MacBook Pro  
+-",Laptops AC/DC 16GB RAM 450W 5.5L.,,,
