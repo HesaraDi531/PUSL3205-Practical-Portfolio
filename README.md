@@ -211,6 +211,16 @@ Files such as Python virtual environments, OAuth credentials, local tokens, priv
 
 These six practicals helped me connect the underlying concepts of LLMs with the real implementation challenges: cleaning text before classification, managing sequence data for Transformers, training efficiently with adapters, retrieving reliable external evidence, and controlling tool calls that can interact with a user's environment. I also learned to separate **code that exists**, **experiments that were executed** and **features that still require testing**. That distinction is essential when reporting experimental results responsibly.
 
+## Overall conclusion
+
+Completing these six laboratories helped me understand how language AI systems develop from basic text processing into applications that can generate content, retrieve information and use external tools. Each lab introduced a different part of that progression, and the practical work showed me why implementation and evaluation are just as important as the underlying theory.
+
+In **Lab 01**, I learned how preprocessing, feature extraction and conventional classifiers can produce useful sentiment predictions, with the selected TF-IDF and Linear SVM model achieving **85.02% test accuracy**. **Lab 02** shifted the focus from modelling to problem-solving: the *Busy Student* activity showed how an LLM can support idea generation while leaving feasibility and user needs to human judgement. In **Lab 03**, building a small Transformer from scratch clarified how attention, next-token prediction and training settings influence text generation; the three-layer experiment improved validation loss and perplexity compared with the two-layer baseline. **Lab 04** demonstrated how QLoRA can adapt a pretrained model using limited GPU resources, while also showing that a decreasing training loss does not guarantee dependable answers to unseen questions.
+
+The final two labs brought these concepts closer to practical applications. In **Lab 05**, I connected document ingestion, embeddings, ChromaDB retrieval and a local LLM to answer questions from a university handbook, indexing **20 pages into 45 chunks**. In **Lab 06**, I explored agents that can use calculators, memory, document retrieval and calendar tools, and began connecting these capabilities through n8n. The full n8n university assistant, including Sheets, Docs, Gmail and approved write actions, still needs complete end-to-end testing and supporting evidence.
+
+Overall, the portfolio strengthened my understanding of NLP, Transformers, efficient fine-tuning, RAG and AI-agent workflows. It also taught me to examine errors, protect credentials, verify results against evidence and distinguish a working demonstration from a fully evaluated system. These lessons provide a foundation for developing more reliable, useful and responsible LLM applications in future projects.
+
 ## References and acknowledgements
 
 - [UCI Sentiment Labelled Sentences](https://archive.ics.uci.edu/dataset/331/sentiment+labelled+sentences)
