@@ -253,7 +253,6 @@ These six practicals helped me connect the underlying concepts of LLMs with the 
 
 ## References and acknowledgements
 
-- PUSL3205 — *Large Language Models and Generative AI*, Lab Sheets 01–06 (module-provided practical instructions).
 - [UCI Sentiment Labelled Sentences](https://archive.ics.uci.edu/dataset/331/sentiment+labelled+sentences)
 - [TinyStories dataset](https://huggingface.co/datasets/roneneldan/TinyStories)
 - [PyTorch documentation](https://pytorch.org/docs/stable/index.html)
@@ -261,4 +260,3 @@ These six practicals helped me connect the underlying concepts of LLMs with the 
 - [LangChain documentation](https://docs.langchain.com/)
 - [Ollama](https://ollama.com/), [Streamlit](https://docs.streamlit.io/) and [n8n](https://docs.n8n.io/)
 
-**AI assistance statement:** AI tools were used to support planning, explanation, writing refinement and technical troubleshooting. The individual lab reports document the recorded experiments and any limitations. This portfolio should be reviewed together with the notebooks, code and genuine outputs rather than treating descriptions alone as proof of execution.
